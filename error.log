@@ -1,0 +1,10 @@
+
+error: gpg failed to sign the data:
+[GNUPG:] KEY_CONSIDERED 78188308CCB3877110F752642FCE855F741B74F6 2
+[GNUPG:] BEGIN_SIGNING H10
+[GNUPG:] PINENTRY_LAUNCHED 51056 curses 1.2.1 - xterm-256color - - 501/20 0
+gpg: firma fallida: Inappropriate ioctl for device
+[GNUPG:] FAILURE sign 83918950
+gpg: signing failed: Inappropriate ioctl for device
+
+fatal: falló al escribir el objeto commit
