@@ -1,11 +1,10 @@
 import { ModuleFederationConfig } from '@nx/rspack/module-federation';
 
 const config: ModuleFederationConfig = {
-  name: 'products',
+  name: 'cart',
 
   exposes: {
     './Module': './src/remote-entry.ts',
-    './CardProduct':'./src/app/product-card.tsx',
   },
 };
 
